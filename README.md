@@ -1,8 +1,6 @@
-# divide-and-conquer
+# Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford University
 
-## Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford University
-
-Ce fichier est la solution du premier exercice du premier chapitre d'un Mooc sur Coursera par ** Tim Roughgarden **
+Ce fichier est la solution du premier exercice du premier chapitre d'un Mooc sur Coursera par **Tim Roughgarden**
 
 Retrouvez le cours sur le [site de Coursera](https://www.coursera.org/learn/algorithms-divide-conquer)
 
