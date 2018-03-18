@@ -1,4 +1,4 @@
-def merge_and_sort(array)
+def sort(array)
   # Fonction qui ordonne un tableau dans l'ordre décroissant
   if array.size == 1
     return array
@@ -7,15 +7,15 @@ def merge_and_sort(array)
     half_size = array.size / 2
     first_half = array[0...half_size]
     second_half = array[half_size..-1]
-    # On trie chaque tableau en appelant récursivement la fonction merge_and_sort - étape 2
-    first_half_sorted = merge_and_sort(first_half)
-    second_half_sorted = merge_and_sort(second_half)
+    # On trie chaque tableau en appelant récursivement la fonction sort - étape 2
+    first_half_sorted = sort(first_half)
+    second_half_sorted = sort(second_half)
     # On fusionne et on trie les tableaux en comparant un à un les éléments de chaque tableau - étape 3
-    array_rearanged = sort(first_half_sorted,second_half_sorted)
+    array_rearanged = merge_and_sort(first_half_sorted,second_half_sorted)
   end
 end
 
-def sort(arr_1,arr_2)
+def merge_and_sort(arr_1,arr_2)
   # si les tableaux ont chacun une valeur alors on les trie dans l'ordre décroissant.
   if arr_1.size == 1 && arr_2 == 1
     arr_1 > arr_2 ? [arr_2, arr_1] : [arr_1 , arr_2]
@@ -50,4 +50,4 @@ end
 
 a = [1,8,2,7,3,6,4,5,9,13,0]
 
-p merge_and_sort(a)
+p sort(a)
