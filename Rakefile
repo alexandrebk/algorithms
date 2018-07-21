@@ -3,7 +3,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 desc 'Look for style guide offenses in your code'
 task :rubocop do
-  sh 'rubocop --format simple recursive.rb || true'
+  sh 'rubocop --format simple lib/recursive.rb || true'
 end
 
 # task default: [:rubocop, :spec]
