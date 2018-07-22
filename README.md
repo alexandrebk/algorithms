@@ -10,9 +10,10 @@ In this exercise, the goal is to sort an array of integer.
 * Step 2: You need to sort recursiverly each array
 * Step 3: You need to merge the array with comparing each element between them
 
-Open your Terminal and lauch the rake with this command:
+To launch test, open your Terminal copy those commands:
 
 ```bash
+cd 01-Merge-and-Sort
 rake
 ```
 
@@ -21,7 +22,7 @@ French :
 L'objectif de l'exercice est de trier par ordre décroissant un tableau de nombre entier à l'aide d'une fonction récursive. La solution la plus rapide est de découper le tableau en deux (étape 1), de trier chaque tableau individuellement (étape 2) et enfin de fusionner les tableaux en comparant les éléments des deux tableaux entre eux (étape 3). Pour résoudre l'étape 2 on va utiliser récursivement la fonction de tri.
 
 Dans la console le résultat est le tri du tableau: [1,8,2,7,3,6,4,5,9,13,0]
-Vous pouvez modifier le tableau à trier à la ligne 47.
+Vous pouvez modifier le tableau à la fin du ficher.
 
 ## 02 - Karatsuba's Algorithm
 
