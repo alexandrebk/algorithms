@@ -1,28 +1,20 @@
-def multiplication(integer1, integer2 )
-
-  # mettre un if on retourn juste la multiplication si c'est la taille des 2 est de 1
-  puts "NOUVELLE BOUCLE AVEC #{integer1} et #{integer2}"
+def multiplication(integer1, integer2)
+  puts "NOUVELLE BOUCLE AVEC #{integer1} ET #{integer2}"
   return integer1 * integer2 if integer1 < 10 || integer2 < 10
   split_integer1 = divide_an_integer(integer1)
   split_integer2 = divide_an_integer(integer2)
   n = split_integer1[2]
   puts "Taille de la raie? #{split_integer1[2]}"
   a = split_integer1[0]
-  puts "a: #{a}"
   b = split_integer1[1]
-  puts "b: #{b}"
   c = split_integer2[0]
-  puts "c: #{c}"
   d = split_integer2[1]
-  puts "d: #{d}"
-  # Il faut calculer a fois c
-  # Il faut calculer b fois d
-  # Il faut calculer a fois c
-  premier   = multiplication(a,c)# a * c
+  puts "a: #{a}, b: #{b}, c: #{c}, d: #{d}"
+  premier   = multiplication(a,c)
   puts "premier: #{premier}"
-  second    = multiplication(b,d)# b * d
+  second    = multiplication(b,d)
   puts "second: #{second}"
-  troisieme = multiplication(a+b,c+d)# (a + b) * (c + d)
+  troisieme = multiplication(a+b,c+d)
   puts "troisieme: #{troisieme}"
   quatrieme = troisieme - premier - second
   puts "quatrieme: #{quatrieme}"
@@ -48,3 +40,5 @@ number4 = 56785678
 p multiplication(number3, number4)
 
 p number3 * number4
+
+# Ne marche avec des tableaux de taille impaire
