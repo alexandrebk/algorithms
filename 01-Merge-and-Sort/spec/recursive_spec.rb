@@ -12,17 +12,17 @@ describe "Should return an array." do
 
 end
 
-describe "When array have only one element" do
+describe "Should not reach recursive step if input array have only one element" do
 
   it "should return the same array." do
-    expect( sort([78]) ).to eq([78])
+    expect( sort([1]) ).to eq([1])
   end
 
 end
 
 describe "Should return an array sorted." do
 
-  it "should sort an array." do
+  it "should return the same array." do
     # expect( sort(array_of_integer) ).to eq(answer)
     expect( sort(array_of_integer) ).to eq(array_of_integer.sort)
   end
