@@ -2,7 +2,7 @@
 
 Ce fichier regroupe des exercices algorithmiques recensé dans le cours de **Tim Roughgarden** sur le [site de Coursera](https://www.coursera.org/learn/algorithms-divide-conquer)
 
-### 01 Merge and Sort
+## 01 - Merge and Sort
 
 L'objectif de l'exercice est de trier par ordre décroissant un tableau de nombre entier à l'aide d'une fonction récursive. La solution la plus rapide est de découper le tableau en deux (étape 1), de trier chaque tableau individuellement (étape 2) et enfin de fusionner les tableaux en comparant les éléments des deux tableaux entre eux (étape 3). Pour résoudre l'étape 2 on va utiliser récursivement la fonction de tri.
 
@@ -12,7 +12,7 @@ ruby recursive.rb
 Dans la console le résultat est le tri du tableau: [1,8,2,7,3,6,4,5,9,13,0]
 Vous pouvez modifier le tableau à trier à la ligne 47.
 
-### 01 Karatsuba Algorithm
+## 02 - Karatsuba Algorithm
 
 Mettre un place un algorithme Karatsuba pour résoudre une multiplication des grands nombres.
 
@@ -29,7 +29,3 @@ So: what's the product of the following two 64-digit numbers?
 [TIP: before submitting, first test the correctness of your program on some small test cases of your own devising. Then post your best test cases to the discussion forums to help your fellow students!]
 
 [Food for thought: the number of digits in each input number is a power of 2. Does this make your life easier? Does it depend on which algorithm you're implementing?]
-
-The numeric answer should be typed in the space below. So if your answer is 1198233847, then just type 1198233847 in the space provided without any space / commas / any other punctuation marks.
-
-(We do not require you to submit your code, so feel free to use any programming language you want --- just type the final numeric answer in the following space.)
