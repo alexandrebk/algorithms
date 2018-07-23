@@ -47,12 +47,21 @@ So: what's the product of the following two 64-digit numbers?
 * [Lien wiki](https://fr.wikipedia.org/wiki/Algorithme_de_Strassen)
 * [Lien Quora](https://www.quora.com/What-is-the-most-interesting-algorithm)
 
-<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
-<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Multiplication" title="Modèle:Palette Multiplication"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a>&#160;· <a class="external text" href="//fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Multiplication&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><span style="font-size:110%">Algorithmes de multiplication</span></th>
-</tr>  <tr>
-<th class="navbox-group" style="">Produit de matrices</th>
-<td class="navbox-list" style="text-align:center;;"><style data-mw-deduplicate="TemplateStyles:r150514359">.mw-parser-output .sep-liste{font-weight:bold}</style><span class="nowrap"><a href="/wiki/Produit_matriciel" title="Produit matriciel">Naïf</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Strassen" title="Algorithme de Strassen">Strassen</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Coppersmith-Winograd" title="Algorithme de Coppersmith-Winograd">Coppersmith-Winograd</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_multiplication_de_matrices_encha%C3%AEn%C3%A9es" class="mw-redirect" title="Algorithme de multiplication de matrices enchaînées">Algorithme de multiplication de matrices enchaînées</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Freivalds" title="Algorithme de Freivalds">Algorithme de vérification de Freivalds</a></span></td>
-</tr> <tr>
-<th class="navbox-group" style="">Produit d'entiers</th>
-<td class="navbox-list navbox-even" style="text-align:center;;"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r150514359"/><span class="nowrap"><a href="/wiki/Algorithme_de_multiplication" title="Algorithme de multiplication">Naïf</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Karatsuba" title="Algorithme de Karatsuba">Karatsuba</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_Toom-Cook" title="Algorithme Toom-Cook">Toom-Cook</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Sch%C3%B6nhage-Strassen" title="Algorithme de Schönhage-Strassen">Schönhage-Strassen</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a class="mw-selflink selflink">Fürer</a></span></td>
-</tr>                             </tbody></table>
+## WIP
+
+<table>
+  <tbody>
+    <tr>
+      <th class="navbox-title" colspan="2" style=""><span style="font-size:110%">Algorithmes de multiplication</span></th>
+    </tr>
+    <tr>
+      <th >Produit de matrices</th>
+      <td ><span class="nowrap"><a href="/wiki/Produit_matriciel" title="Produit matriciel">Naïf</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Strassen" title="Algorithme de Strassen">Strassen</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Coppersmith-Winograd" title="Algorithme de Coppersmith-Winograd">Coppersmith-Winograd</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_multiplication_de_matrices_encha%C3%AEn%C3%A9es" class="mw-redirect" title="Algorithme de multiplication de matrices enchaînées">Algorithme de multiplication de matrices enchaînées</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Freivalds" title="Algorithme de Freivalds">Algorithme de vérification de Freivalds</a></span></td>
+    </tr>
+    <tr>
+      <th class="navbox-group" style="">Produit d'entiers</th>
+      <td class="navbox-list navbox-even" style="text-align:center;;"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r150514359"/><span class="nowrap"><a href="/wiki/Algorithme_de_multiplication" title="Algorithme de multiplication">Naïf</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Karatsuba" title="Algorithme de Karatsuba">Karatsuba</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_Toom-Cook" title="Algorithme Toom-Cook">Toom-Cook</a></span>&#160;<span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Algorithme_de_Sch%C3%B6nhage-Strassen" title="Algorithme de Schönhage-Strassen">Schönhage-Strassen</a></span>&#160;<span class="sep-liste">·<a href="https://fr.wikipedia.org/wiki/Algorithme_de_F%C3%BCrer">Fürer</a></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
