@@ -1,10 +1,10 @@
 # Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford University
 
-Ce repo regroupe des exercices algorithmiques recensé dans le cours de **Tim Roughgarden** sur le [site de Coursera](https://www.coursera.org/learn/algorithms-divide-conquer)
+Ce repo regroupe des exercices algorithmiques en Ruby recensé dans le cours de **Tim Roughgarden** sur le [site de Coursera](https://www.coursera.org/learn/algorithms-divide-conquer)
 
 ## 01 - Merge and Sort
 
-In this exercise, the goal is to sort an array of integer.
+In this exercise, the goal is to sort an array of integer. But without using the sort method ;).
 
 * Step 1: You need to split the array in two array
 * Step 2: You need to sort recursiverly each array

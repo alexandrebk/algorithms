@@ -29,10 +29,37 @@ describe "Should return an array sorted." do
 
 end
 
-describe "No sort method." do
+describe "Should not use sort method." do
 
   it "Should not use sort method." do
     expect(true).to eq false
   end
 
+end
+
+describe "Step 1" do
+
+  it "You need to split the array in two array." do
+    expect(true).to eq false
+  end
+
+end
+
+describe "Step 2" do
+
+  it "You need to sort recursiverly each array." do
+    expect(true).to eq false
+  end
+
+end
+
+describe "Step 3" do
+
+  it "Should merge the array at the end" do
+    expect(true).to eq false
+  end
+
+  it "Should compare each element of the two array" do
+    expect(true).to eq false
+  end
 end
