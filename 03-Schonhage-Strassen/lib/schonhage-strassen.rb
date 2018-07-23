@@ -27,3 +27,5 @@ end
 def one_digit_array(integer)
   integer.to_s.split('')
 end
+
+test gitignore
