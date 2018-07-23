@@ -37,3 +37,12 @@ So: what's the product of the following two 64-digit numbers?
 2718281828459045235360287471352662497757247093699959574966967627
 
 *Food for thought*: the number of digits in each input number is a power of 2. Does this make your life easier? Does it depend on which algorithm you're implementing?
+
+## 03 - Schönhage–Strassen Algorithm, integer multiplication
+
+[Lien wiki](https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm)
+
+## 04 - Strassen Algorithm, matrix multiplication
+
+* [Lien wiki](https://fr.wikipedia.org/wiki/Algorithme_de_Strassen)
+* [Lien Quora](https://www.quora.com/What-is-the-most-interesting-algorithm)
