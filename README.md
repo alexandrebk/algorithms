@@ -1,6 +1,6 @@
-# Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford University
+# Divide and Conquer, Sorting and Searching, and Randomized Algorithms
 
-The goal of those exercises is to translate some multiplication alogorithm into Ruby. Also to have a better understanding of those  alogorithm and how your computer is running. Most of exemples are coming from a online course from **Tim Roughgarden** on [Coursera](https://www.coursera.org/learn/algorithms-divide-conquer).
+The goal of those exercises is to translate some complex algorithms into Ruby. Why ? To train yourselves and also to have a better understanding of those  alogorithm and how your computer is running. Most of exemples are coming from a online course from **Tim Roughgarden** on [Coursera](https://www.coursera.org/learn/algorithms-divide-conquer).
 
 To download the repo it's easy, open your Terminal copy those commands:
 
@@ -15,11 +15,11 @@ You can fin the solutions on this [GitBook page](https://korium.gitbook.io/algor
 
 ## 01 - Merge and Sort
 
-In the exercise, the goal is to sort an array of integer. But without using the sort method ;). We'll need to write a recursive function. The quickest solution for sorting is to split you array, sort each array (recursively) and then merge them. Read this wiki page before diving into the code. All you need is array, >, < and /.
+In the exercise, the goal is to sort an array of integer. But without using the sort method of course. For that you'll need to write a recursive function. It's not easy. The quickest way for sorting an array is to split it, sort each array (recursively) and then merge them with rearranging. Read this wiki page before diving into the code. All you need is array, comparaison and division.
 
 * Step 1: You need to split the array in two array
 * Step 2: You need to sort recursiverly each array
-* Step 3: You need to merge the array with comparing each element between them
+* Step 3: You need to merge the array with comparing each element between them.
 
 Let the rake help you. To launch test, it's easy, open your Terminal copy those commands:
 
@@ -30,7 +30,7 @@ rake
 
 ## 02 - Integer multiplication: Karatsuba's Algorithm
 
-In this exercise you will implement the integer Karatsuba's algorithm. To help you read this [wiki](https://en.wikipedia.org/wiki/Karatsuba_algorithm) page.
+In this exercise you will implement the integer multiplication with Karatsuba's algorithm. To help you read this [wiki](https://en.wikipedia.org/wiki/Karatsuba_algorithm) page.
 
 To get the most out of this assignment, your program should restrict itself to multiplying only pairs of single-digit numbers.
 
