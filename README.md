@@ -2,7 +2,16 @@
 
 The goal of those exercises is to translate some multiplication alogorithm into Ruby. Also to have a better understanding of those  alogorithm and how your computer is running. Most of exemples are coming from a online course from **Tim Roughgarden** on [Coursera](https://www.coursera.org/learn/algorithms-divide-conquer).
 
-Solution will come soon on a [GitBook page](https://korium.gitbook.io/algoritms/).
+To download the repo it's easy, open your Terminal copy those commands:
+
+```bash
+git clone git@github.com:alexandrebk/divide-and-conquer-algorithm.git # download the repo
+git remote add upstream git@github.com:alexandrebk/divide-and-conquer-algorithm.git # add a remote branch for update
+git config branch.master.mergeoptions --no-edit
+git pull upstream master -X ours # to download last update
+```
+
+You can fin the solutions on this [GitBook page](https://korium.gitbook.io/algoritms/).
 
 ## 01 - Merge and Sort
 
