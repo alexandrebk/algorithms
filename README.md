@@ -30,7 +30,7 @@ rake
 
 ## 02 - Integer multiplication: Karatsuba's Algorithm
 
-In this exercise you will implement the integer Karatsuba's algorithm. To help you read this [wiki](https://fr.wikipedia.org/wiki/Algorithme_de_Karatsuba) page.
+In this exercise you will implement the integer Karatsuba's algorithm. To help you read this [wiki](https://en.wikipedia.org/wiki/Karatsuba_algorithm) page.
 
 To get the most out of this assignment, your program should restrict itself to multiplying only pairs of single-digit numbers.
 
@@ -50,7 +50,10 @@ Your program should restrict itself to multiplying only pairs of single-digit nu
 
 [Lien wiki](https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm)
 
-Sorry no test for the moment :(
+```bash
+cd 03-Schonhage-Strassen
+rake
+```
 
 ## 04 - Integer multiplication: Toom-Cook Algorithm
 
@@ -83,3 +86,5 @@ Sorry no test for the moment :(
     </tr>
   </tbody>
 </table>
+
+[Lien pour les specs](https://relishapp.com/rspec/rspec-expectations/docs/built-in-matchers)
