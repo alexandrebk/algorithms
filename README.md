@@ -2,7 +2,7 @@
 
 The goal of those exercises is to translate some multiplication alogorithm into Ruby. Also to have a better understanding of those  alogorithm and how your computer is running. Most of exemples are coming from a online course from **Tim Roughgarden** on [Coursera](https://www.coursera.org/learn/algorithms-divide-conquer).
 
-Solution will come soon on a GitBook page.
+Solution will come soon on a [GitBook page](https://korium.gitbook.io/algoritms/).
 
 ## 01 - Merge and Sort
 
