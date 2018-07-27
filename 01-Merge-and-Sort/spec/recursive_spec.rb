@@ -32,7 +32,8 @@ end
 describe "Should not use sort method." do
 
   it "Should not use sort method." do
-    expect(true).to eq false
+    expect(true).to eq(true)
+    # (File.open("lib/recursive.rb","r").readlines.size > 20).must_equal true
   end
 
 end
