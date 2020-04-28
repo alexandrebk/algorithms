@@ -41,5 +41,3 @@ def merge_with_sorting(array1, array2)
   end
   final_array
 end
-
-p sort([1, 8, 2, 7, 3, 6, 4, 5, 9, 13, 0])
