@@ -18,8 +18,7 @@ end
 
 def merge_with_sorting(array1, array2)
   # we compare each value and merge them rearrange
-  i = 0
-  j = 0
+  i, j = 0, 0
   final_array = []
   while i <= array1.size && j <= array2.size
     # Tant qu'on a pas atteint la fin des 2 tableaux we keep iterating.
