@@ -19,24 +19,24 @@ end
 def merge_with_sorting(array1, array2)
   # we compare each value and merge them rearrange
   i, j = 0, 0
-  final_array = []
+  array = []
   while i <= array1.size && j <= array2.size
     # Tant qu'on a pas atteint la fin des 2 tableaux we keep iterating.
     # action = gets.chomp.to_i
     # route_action(action)
     if array1[i].nil?
-      final_array << array2[j] unless array2[j].nil?
+      array << array2[j] unless array2[j].nil?
       j += 1
     elsif array2[j].nil?
-      final_array << array1[i] unless array1[i].nil?
+      array << array1[i] unless array1[i].nil?
       i += 1
     elsif array1[i] > array2[j]
-      final_array << array2[j]
+      array << array2[j]
       j += 1
     elsif array1[i] <= array2[j]
-      final_array << array1[i]
+      array << array1[i]
       i += 1
     end
   end
-  final_array
+  array
 end
